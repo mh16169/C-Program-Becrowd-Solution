@@ -1,16 +1,12 @@
 #include <stdio.h>
 int main(){
 
-int X, result;
+int X;
 
 scanf("%d", &X);
 
-for(int i = 1; i<=X; i++){
-    result++;
-    if(result%2==1){
-    printf("%d\n", result);
-
-    }
+for(int i = 1; i<=X; i+=2){
+    printf("%d\n", i);
 }
 
 return 0;
